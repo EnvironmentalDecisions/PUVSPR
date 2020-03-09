@@ -8,3 +8,5 @@ puvspr<- subset(long.id, amount!=0)
 puvspr<- arrange(puvspr, id)
 puvspr<- round(puvspr, digits = 3)
 write.csv(puvspr, "C:/Users/Asus/SUDOE/St.Miquel/Marxan/INPUT/puvspr.csv", row.names = FALSE)
+
+aa
